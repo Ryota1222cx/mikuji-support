@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>プライバシーポリシー | Mikuji</title><style>:root{--bg:#f6f7fb;--panel:#fff;--line:#dce1ee;--text:#141a2e;--dim:#4a5470;--accent:#b23a2a}
+@media (prefers-color-scheme: dark){:root{--bg:#080c18;--panel:#121a30;--line:#26304d;--text:#e8ecf6;--dim:#a3adc6;--accent:#ff8a70}}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--text);margin:0;line-height:1.9;font-size:15px;font-family:"Hiragino Sans","Hiragino Kaku Gothic ProN",system-ui,sans-serif}
+main{max-width:760px;margin:0 auto;padding:40px 16px 80px}
+h1{font-size:24px;line-height:1.4;margin:0 0 16px}
+h2{font-size:16px;margin:28px 0 6px;color:var(--accent)}
+p,li{margin:0 0 8px;overflow-wrap:anywhere}
+ul{padding-left:20px;margin:0 0 8px}
+a{color:var(--accent)}
+.lang{float:right;font-size:13px}
+nav{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-size:13px;color:var(--dim)}
+nav a{margin-right:16px}</style></head>
+<body><main><a class="lang" href="privacy-en.html">English</a>
+<h1>プライバシーポリシー</h1>
+<p>Mikuji(以下「本アプリ」)は、運営者 Ryota Masuda(以下「運営者」)が提供する、九星気学とAIとの相談を組み合わせた占いアプリです。本アプリでどの情報を扱い、どこへ送り、いつ消すかを次のとおり定めます。</p>
+<h2>1. 端末の中だけで扱う情報</h2>
+<ul>
+<li><b>生年月日・生まれた時刻(任意)・呼び名(任意)</b>: 占いの計算に使います。端末の中にだけ保存し、生年月日そのものを外部へ送ることはありません。</li>
+<li><b>おみくじの結果、今日の運勢、相談のやり取りの記録、通知などの設定</b>: 端末の中にだけ保存します。</li>
+<li><b>インストールごとに作る匿名の識別子</b>: 利用回数の確認と購入の管理のために、端末の中で作って使います。氏名やメールアドレスとは結び付けません。</li>
+</ul>
+<p>運営者はこれらの情報を保存するデータベースを持っていません。</p>
+<h2>2. 外部へ送る情報</h2>
+<ul>
+<li><b>Anthropic, PBC(米国の会社。AIの提供元)</b>: 「AIに相談する」を使ったときだけ、相談の質問文、それまでのやり取り、占いの計算結果(本命星・月命星など星の名称、選んだ場合は呼び名)を、運営者が用意した中継サーバー経由で送り、返答を作ります。生年月日そのものは送りません。自傷や自殺を思わせる言葉を含む質問は、AIには送らず、あらかじめ用意した案内文を返します。</li>
+<li><b>中継サーバー(運営者が用意する Cloudflare Workers)</b>: 上記の相談の内容は、Anthropic に送る前に一度この中継サーバーを通ります。中継サーバーは相談の文章を保存せず、利用回数と対応にかかった時間などの記録だけを3日間保持して自動的に消します。</li>
+<li><b>RevenueCat, Inc.(米国の会社)</b>: 購入の状態を管理するために、本アプリが作る匿名の識別子と、購入した商品・期限などの購入の記録を送ります。メールアドレスや氏名は送りません。</li>
+<li><b>Functional Software, Inc.(Sentry、米国の会社)</b>: 本アプリが想定外の止まり方をしたとき、不具合を直すために使う仕組みです。現時点では送信先を設定しておらず、送信していません。設定した場合に送るのは、エラーの種類、起きた画面の名前、端末の機種とOSの版だけで、生年月日、呼び名、相談の質問や返答の文章は送りません。</li>
+<li><b>Apple と Google</b>: 購入は App Store と Google Play の仕組みで行います。</li>
+</ul>
+<p>米国の個人情報の保護の制度は、個人情報保護委員会のページ(<a href="https://www.ppc.go.jp/enforcement/infoprovision/laws/">https://www.ppc.go.jp/enforcement/infoprovision/laws/</a>)で読めます。広告は表示せず、広告のための追跡もしません。</p>
+<h2>3. 使う目的</h2>
+<p>占いの計算をすること、AIとの相談への返答を作ること、購入の状態を管理すること、不具合を直すこと。これ以外の目的には使いません。</p>
+<h2>4. 消し方</h2>
+<p>アプリの「設定」の「この端末のデータを消す」で、端末の中の生年月日、記録、設定をすべて消します。アプリを削除しても消えます。RevenueCat の購入の記録は、Apple と Google の購入の記録と結び付いているため、本アプリからは消せません。消したい場合は下のメールアドレスへご連絡ください。</p>
+<h2>5. 対象の年齢</h2>
+<p>本アプリは13歳未満の子どもを対象にしていません。</p>
+<h2>6. 問い合わせ</h2>
+<p><a href="mailto:m.ryota1222@gmail.com">m.ryota1222@gmail.com</a></p>
+<h2>7. 変更</h2>
+<p>このポリシーを変えるときは、このページで知らせます。扱う情報や送る先を増やすときは、本アプリの中でもお知らせします。</p>
+<p>制定 2026年10月19日</p>
+<nav><a href="index.html">サポート</a><a href="terms.html">利用規約</a><a href="privacy.html">プライバシーポリシー</a><a href="commerce.html">特定商取引法に基づく表記</a></nav></main></body></html>
