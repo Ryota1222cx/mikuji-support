@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Privacy Policy | Hitofuri</title><style>:root{--bg:#f6f7fb;--panel:#fff;--line:#dce1ee;--text:#141a2e;--dim:#4a5470;--accent:#b23a2a}
+<title>Privacy Policy | ひとふり</title><style>:root{--bg:#f6f7fb;--panel:#fff;--line:#dce1ee;--text:#141a2e;--dim:#4a5470;--accent:#b23a2a}
 @media (prefers-color-scheme: dark){:root{--bg:#080c18;--panel:#121a30;--line:#26304d;--text:#e8ecf6;--dim:#a3adc6;--accent:#ff8a70}}
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--text);margin:0;line-height:1.9;font-size:15px;font-family:"Hiragino Sans","Hiragino Kaku Gothic ProN",system-ui,sans-serif}
@@ -15,7 +15,7 @@ nav{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-size:
 nav a{margin-right:16px}</style></head>
 <body><main><a class="lang" href="privacy.html">日本語</a>
 <h1>Privacy Policy</h1>
-<p>Hitofuri ("the App") is an app, provided by Ryota Masuda ("the Operator"), that combines Kyusei-kigaku fortune-telling with AI consultation. This policy explains what information the App handles, where it goes, and how to delete it.</p>
+<p>ひとふり ("the App") is an app, provided by Ryota Masuda ("the Operator"), that combines Kyusei-kigaku fortune-telling with AI consultation. This policy explains what information the App handles, where it goes, and how to delete it.</p>
 <h2>1. Information kept only on your device</h2>
 <ul>
 <li><b>Date of birth, time of birth (optional) and nickname (optional)</b>: Used to calculate your fortune. Stored only on your device; your date of birth itself is never sent outside it.</li>
@@ -26,7 +26,7 @@ nav a{margin-right:16px}</style></head>
 <h2>2. Information sent outside the App</h2>
 <ul>
 <li><b>Anthropic, PBC (United States, the AI provider)</b>: Only when you use "Ask the AI", your question, the recent conversation, and your fortune results (the names of your stars, and your nickname if you set one) are sent, through the Operator's relay server, to generate a reply. Your date of birth itself is not sent. A message that suggests self-harm or suicide is not sent to the AI; a prepared message is returned instead.</li>
-<li><b>Relay server (Cloudflare Workers, run by the Operator)</b>: The consultation content above passes through this server before reaching Anthropic. The server does not store the text of your consultation; it keeps only usage counts and response times for up to 3 days before deleting them automatically.</li>
+<li><b>Relay server (Cloudflare Workers, run by the Operator)</b>: The consultation content above passes through this server before reaching Anthropic. The server does not store the text of your consultation; it keeps only usage counts and response times for up to 3 days before deleting them automatically. To prevent abusive overuse, it also stores, for up to 36 hours, a value derived from the connecting IP address (a hash; the original IP address is not kept) and then deletes it automatically. The original IP address cannot be recovered from this value.</li>
 <li><b>RevenueCat, Inc. (United States)</b>: To manage purchases, the App sends an anonymous identifier it creates and your purchase records, such as the product and expiry. No email address or name is sent.</li>
 <li><b>Functional Software, Inc. (Sentry, United States)</b>: A crash-reporting tool used to fix bugs. No destination is configured at this time, so nothing is sent. If one is configured, it would send only the error type, the screen name, the device model and the OS version, never your date of birth, nickname, or the text of a question or reply.</li>
 <li><b>Apple and Google</b>: Purchases go through the App Store and Google Play.</li>
